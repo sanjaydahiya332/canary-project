@@ -1,4 +1,0 @@
-resources:
-  - rollout.yaml
-  - service.yaml
-  - configmap.yaml
