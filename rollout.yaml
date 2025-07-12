@@ -9,7 +9,9 @@ spec:
       app: html-app
   template:
     metadata:
-      labels:
+     annotations:
+       rollouts.argoproj.io/revision: "3"  # or use timestamp
+     labels:
         app: html-app
     spec:
       containers:
